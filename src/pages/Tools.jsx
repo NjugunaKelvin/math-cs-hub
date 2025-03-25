@@ -1,11 +1,13 @@
 import React from "react";
+import Calculator from "../components/Calculator";
+import { Container } from "react-bootstrap";
 
 const Tools = () => {
   return (
-    <div className="container mt-5 text-white">
-      <h1 className="mt-5">🛠 Tools</h1>
-      <p>Use interactive tools like a calculator and code editor.</p>
-    </div>
+    <Container className="mt-5 pt-5 text-white">
+      <h1 className="text-center mb-4">🛠 Interactive Tools</h1>
+      <Calculator />
+    </Container>
   );
 };
 

@@ -21,3 +21,12 @@ body {
 .card:hover {
   transform: scale(1.05);
 }
+.landing-page {
+  height: 100vh;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
