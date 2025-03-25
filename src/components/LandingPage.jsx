@@ -5,7 +5,7 @@ import "./LandingPage.css"; // Import styles
 
 const LandingPage = () => {
   return (
-    <div className="landing-container">
+    <div className="landing-container mt-5">
       <motion.div
         className="hero"
         initial={{ opacity: 0, y: -50 }}
